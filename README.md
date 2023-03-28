@@ -3,6 +3,9 @@
   
 ***
 
+Actor --------< Auditions >---------- Role
+
+
 ## Introduction
 
 The Flatiron Theater Company is holding auditions!
@@ -41,14 +44,14 @@ An Actor may `Audition` for many `Roles`, while a `Role` may have many `Audition
 
 ## Audition
 
-- `Audition#role` returns an instance of role associated with this audition.
-- `Audition#actor` returns an instance of actor associated with this audition.
-- `Audition#call_back()` will change the the hired attribute to `True`.
+-DONE! `Audition#role` returns an instance of role associated with this audition.
+-DONE!`Audition#actor` returns an instance of actor associated with this audition.
+-DONE! `Audition#call_back()` will change the the hired attribute to `True`.
 
 ## Actor
 
-- `Actor#auditions` returns a list of auditions this actor attended.
-- `Actor#roles` returns a list of roles the actor auditioned for.
+-DONE! `Actor#auditions` returns a list of auditions this actor attended.
+-DONE! `Actor#roles` returns a list of roles the actor auditioned for.
 - `Actor#characters` returns a list of strings with all the 
 different character names this actor auditioned for.
 - `Actor#paychecks` returns a list of strings with all the 
@@ -57,9 +60,8 @@ different character names that this actor has been **hired** for.
 
 ## Roles
 
-- `Role#auditions` returns all of the auditions associated with this role.
-- `Role#actors` returns a list of names from the actors associated with this
-  role.
-- `Role#locations` returns a list of locations from the auditions associated
+-DONE! `Role#auditions` returns all of the auditions associated with this role.
+-DONE! `Role#actors` returns a list of names from the actors associated with this role.
+-DONE! `Role#locations` returns a list of locations from the auditions associated
   with this role.
-- `Role.silver_screen` returns a unique list of strings for all the character names who have been hired.
+-DONE! `Role.silver_screen` returns a unique list of strings for all the character names who have been hired.
